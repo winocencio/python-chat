@@ -1,0 +1,22 @@
+.chat {
+    display: grid;
+    grid-template-rows: 1fr min-content;
+    height: 80vh;
+}
+
+.chat form{
+    display: grid;
+    grid-template-columns: 1fr min-content;
+}
+
+.mensagens {
+    overflow: auto;
+    word-wrap:break-word;
+}
+
+.mensagens p {
+    margin: 5px;
+    padding: 10px;
+    background: gray;
+    border-radius: 10px;
+}
