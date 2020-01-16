@@ -3,166 +3,48 @@
     <head>
         <meta charset="UTF-8">
         <title>Python - Unisanta</title>
-        <link href="index.css" rel="stylesheet">
+        <style>
+        .chat {
+            display: grid;
+            grid-template-rows: 1fr min-content;
+            height: 80vh;
+        }
+
+        .chat form{
+            display: grid;
+            grid-template-columns: 1fr min-content;
+        }
+
+        .mensagens {
+            overflow: auto;
+            word-wrap: break-word;
+        }
+
+        .mensagens p {
+            margin: 5px;
+            padding: 10px;
+            background: gray;
+            border-radius: 10px;
+        }
+
+        .myMessage {
+          background: green !important;
+        }
+        </style>
     </head>
 
     <body>
       <div>
-        <input type="text" required name="nome-usuario" id="nome-usuario" value="Eu mesmo">
+        Seu nome: <input type="text" required name="nome-usuario" id="nome-usuario" value="Eu mesmo">
       </div>
 
       <div class="chat">
           <div class="mensagens">
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-            <p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-            </p>
-              <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
-          <p>
-            <strong>Ciclano: </strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In at laoreet enim, vulputate vestibulum diam. Cras vitae justo non tellus semper cursus eget nec ante.
-          </p>
           </div>
 
           <div>
-            <form>
-              <input type="text" name="mensagem" required id="mensagem" value="">
-              <input type="button" value="Enviar"/>
-            </form>
+              Sua mensagem: <input type="text" name="mensagem" required id="mensagem" value="">
+              <input type="button" value="Enviar" onclick="enviarMensagem()"/>
           </div>
       </div>
 
@@ -170,4 +52,33 @@
       </div>
 
     </body>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript" charset="utf-8">
+      var socket = io();
+      var randomId = Math.random();
+      document.querySelector('#nome-usuario').value = randomId;
+
+      var enviarMensagem = function(){
+        var userId = randomId;
+        var nome = document.querySelector('#nome-usuario').value;
+        var mensagem = document.querySelector('#mensagem').value;
+        var data = Date.now.toString();
+
+        socket.emit('envioMensagem', {userId,nome,mensagem,data});
+      }
+
+      socket.on('receberMensagem', function(json){
+        adicionaMsgRecebida(json);
+      });
+
+      var adicionaMsgRecebida = function(json) { 
+        console.log(randomId + ' - ' + json.userId);
+        var classColor = json.userId == randomId ? 'myMessage': '';
+        var mensagens = document.querySelector('.mensagens');
+        var paragrafo = '<p class="' + classColor + '"><strong>' + json.nome + ': </strong>' + json.mensagem + '</p>';
+        mensagens.innerHTML += paragrafo;
+      }
+
+  </script>
 </html> 
